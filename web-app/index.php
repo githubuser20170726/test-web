@@ -20,5 +20,6 @@
 <body>
   <h1>Hello world</h1>
   <ul><?php foreach($INFO as $e){echo '<li>', $e, '</li>';}?></ul>
+ <p>今日の日付は<?php echo date("Y/m/d"); ?>です。</p>
 </body>
 </html>
