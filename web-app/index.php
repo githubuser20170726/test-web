@@ -20,6 +20,6 @@
 <body>
   <h1>Hello world</h1>
   <ul><?php foreach($INFO as $e){echo '<li>', $e, '</li>';}?></ul>
-  <p>PHPのテストです。</p>
+ <?php THIS-IS-ERROR();?>
 </body>
 </html>
